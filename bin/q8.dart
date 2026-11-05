@@ -1,0 +1,31 @@
+import 'dart:io';
+
+void main (){
+  String grade = stdin.readLineSync();
+
+  switch(grade){
+    case  'A':
+    print("Excellent");
+    break;
+
+    case  'B':
+      print("Outstanding");
+      break;
+
+    case  'C':
+      print("Good");
+      break;
+
+    case  'D':
+      print("Do Better");
+      break;
+
+    case  'F':
+      print("Failed");
+      break;
+
+    default:
+      print("Invalid Grade");
+
+  }
+}
